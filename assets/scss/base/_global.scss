@@ -1,0 +1,31 @@
+* {
+  font-family: 'Noto Sans', sans-serif;
+}
+
+img {
+  max-width: 100%;
+}
+
+// 文字反白後的樣子
+::selection {
+  color: #da3836;
+  background-color: transparent;
+}
+
+::-moz-selection {
+  color: #da3836;
+  background-color: transparent;
+} // End
+button,
+input,
+select {
+  outline: 1px solid transparent;
+}
+
+a {
+  text-decoration: none;
+  transition: all .2s;
+  &:hover {
+    color: #da3836;
+  }
+}
